@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="app/css/bootstrap.css" rel="stylesheet">
+    <link href="app/css/main.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="color in colors" :class="{'strike':color.status}">
+                {{color.name}}
+            </li>
+        </ul>
+    </div>
+    <script src="app/js/vue.js"></script>
+    <script src="app/js/main.js"></script>
+</body>
+</html>
