@@ -13,6 +13,10 @@
                 {{color.name}}
             </li>
         </ul>
+        <button v-on:click="click">
+            Стать классным программистом
+        </button>
+        <input type="text" v-model="message" v-on:keyup.enter="click">
     </div>
     <script src="app/js/vue.js"></script>
     <script src="app/js/main.js"></script>

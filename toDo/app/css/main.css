@@ -1,0 +1,12 @@
+body {
+    background: rgba(255,174,169,0.23);
+}
+
+ul {
+    list-style: none;
+}
+.strike {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
